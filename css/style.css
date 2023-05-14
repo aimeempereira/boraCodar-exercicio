@@ -1,0 +1,166 @@
+:root {
+  /* Cores */
+
+  --color-text-dark:#372d3b;
+  --color-text-light:#fbf8fc;
+  --color-accent:#864293;
+  --color-primary-200:#e5d8ea;
+  --color-primary-100:#f5edf7;
+  --color-50:white;
+
+  font-family: 'Inter', sans-serif;
+
+  background-color: var(--color-primary-100);
+}
+
+.card {
+  background-color: var(--color-50);
+  border-radius: 2.5rem;
+  max-width: 49.688rem;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-container {
+  padding: 1.5rem 3.5rem 2.169rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.188rem;
+}
+
+.slide {
+  background-color: var(--color-primary-200);
+  width: 10.5rem;
+  height: 1.063rem;
+  border-radius: 999px;
+}
+
+.card-header {
+  color: var(--color-text-dark);
+}
+
+.card-titulo {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.accent-color {
+  color: var(--color-accent);
+}
+
+.card-texto {
+  font-weight: 500;
+  font-size: 1.563rem;
+  margin-top: 0.25rem;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 42.688rem;
+}
+
+.motorista-carro {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.motorista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.motorista-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8.563rem;
+  height: 8.836rem;
+  position: relative;
+}
+
+.avaliacao {
+  background-color: var(--color-text-dark);
+  color: var(--color-primary-100);
+  width: 6.25rem;
+  height: 1.961rem;
+  border-radius: 0.981rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.motorista-nome {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-top: 0.433rem;
+}
+
+.carro-img {
+  width: 286px;
+  height: 111.42px;
+  position: absolute;
+  left: 5.75rem;
+}
+
+.info-carro {
+  color: var(--color-text-dark);
+  display: flex;
+  flex-direction: column;
+}
+
+.info-carro .placa {
+  font-size: 2.569rem;
+  margin: 0;
+  line-height: .5rem;
+}
+
+.info-carro p {
+  font-size: 1.541rem;
+}
+
+button {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card-mensagem {
+  display: flex;
+  width: 42.688rem;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#mensagem {
+  border-style: none;
+  background-color: var(--color-primary-100);
+  border-radius: 1.5rem;
+  width: 30rem;
+  height: 4rem;
+  padding-left: 1.813rem;
+  font-size: 1.5rem;
+}
+
+#mensagem::placeholder {
+  color: var(--color-text-dark);
+  font-weight: 500;
+}
+
+.botoes {
+  display: inline-flex;
+  gap: 1.5rem;
+}
